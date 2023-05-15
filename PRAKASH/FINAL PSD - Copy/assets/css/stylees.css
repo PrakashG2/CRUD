@@ -1,0 +1,780 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(../font/00819\ Regular.ttf);
+}
+
+@font-face {
+    font-family: firstfont;
+    src: url(../fonts/font.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+
+/* cards-2 */
+#innercard {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fdffe9;
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+    font-size: 10px;
+}
+
+#cartoon_div {
+    background-image: url('../images/cartoon.png');
+
+}
+
+
+#cartoon_div a {
+    font-size: 40px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 900;
+    font-family: "Quicksand";
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+#cartoon_div .learn_link {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* SUBMIT BUTTON */
+#form_submit_btn {
+    float: right;
+    border: none;
+    background-color: #aab33c;
+    color: aliceblue;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+/* <BANNER BUTTON> */
+#bannerBtn {
+    background-color: #aab33c;
+    border: none;
+    color: white;
+    font-family: "Quicksand";
+    font-weight: 900;
+    border-radius: 2px;
+}
+
+/* <BOTTOM CARDS> */
+
+.bottomCards .container .card-img-overlay {
+    margin-top: 70px;
+}
+
+.bottomCards .container .card-body p {
+    font-size: 8px;
+}
+
+/* <trans> */
+/* for the second layer */
+
+.layer2 .container {
+    max-width: 40%;
+}
+
+.layer2 .container p {
+    max-width: 100%;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Quicksand";
+}
+
+/* for the cards in the layer3 */
+.layer3 .container .row .card img {
+    height: 150px;
+    width: 160px;
+}
+
+.layer3 .container .row .card p {
+    font-size: 24px;
+    line-height: 28px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+/* Specs */
+.specs .container .row .p1 {
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    max-width: 70%;
+}
+
+.specs .container .row .p2 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+/* Tools */
+.tools {
+    background-color: #aab33c;
+}
+
+#button-top {
+    background-color: #c0ca50;
+    font-size: small;
+}
+
+#button-top:hover {
+    background-color: #98a044;
+}
+
+#button-mid {
+    background-color: #c0ca50;
+    font-size: small;
+    color: aliceblue;
+
+}
+
+#button-mid:hover {
+    background-color: #98a044;
+
+}
+
+#green-clr {
+    color: #a9b33b;
+
+}
+
+#green-bg-clr {
+    background-color: #c0ca50;
+}
+
+#green-bg-clr-row {
+    background-color: rgba(190, 197, 108, 0.363);
+}
+
+#toggle-top {
+    background-color: #a9b33b;
+    font-size: x-small;
+
+}
+
+#card-color {
+    background-color: #d9dda9;
+
+}
+
+body h6,
+h4,
+h5,
+h3 {
+    font-family: 'quicksand';
+    color: black;
+}
+
+/* p {
+    font-size: x-small;
+} */
+
+.start {
+    text-align: center;
+}
+
+.start button {
+    width: 235px;
+    height: 47px;
+    background-color: #aab33c;
+    border-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+#realDeal {
+    padding: 0;
+    margin: 0px 0px;
+}
+
+#small-icon {
+    font-size: 80%;
+    font-family: 'quicksand';
+    font-weight: 700px;
+}
+
+
+#nav-font-size:hover {
+    color: #a9b33b;
+}
+
+#nav-font-size {
+    font-size: small;
+}
+
+#row4 {
+    margin-top: 100px;
+}
+
+#system-bg {
+    background-color: #ecf0cb;
+}
+
+.footer-bg {
+    background-image: url(../images/footer-bg-img.png);
+    background-color: #ecf0cb;
+}
+
+#footer {
+    background-image: url('../images/footBg.png');
+}
+
+.but-footer {
+    color: #ffffff;
+    background-color: #acb643;
+    font-size: small;
+    border: none;
+}
+
+.but-footer:hover {
+    background-color: #8b9429;
+}
+
+#fav {
+    color: #a8b336;
+}
+
+#fav-2 {
+    color: white;
+}
+
+#addon-wrapping {
+    background-color: #acb643;
+}
+
+/* cards-2 */
+#innercard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fdffe9;
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+}
+
+/* TABLE */
+#tablehead {
+    background-color: #aab33c;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+#tablesubhead {
+    font-size: 10px;
+}
+
+.textp {
+    width: 157px;
+    height: 27px;
+    font-size: xx-small;
+    font-family: 'Quicksand', sans-serif;
+}
+
+th {
+    height: 15px;
+}
+
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#price {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(170, 179, 59, 0.3);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.tblep {
+    white-space: pre-line;
+    font-weight: 900;
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/* for the plan prices  */
+#pp {
+    color: #aab33c;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#tableend {
+    white-space: pre-line;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+}
+
+
+.ss {
+    background-image: url("/assets/images/sect5.png");
+}
+
+z-index .flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+    height: 100px;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.mtcustom {
+    margin-top: 74px;
+}
+
+.order-2 {
+    order: 2;
+}
+
+/* FOOTER */
+#lili {
+    display: inline;
+}
+
+body {
+    font-size: 15px;
+}
+
+.lineH li {
+    line-height: 2;
+}
+
+.bg-image {
+    background-image: url('./assets/images/footBg.png');
+}
+
+.bg-bgColour {
+    background-color: #aab33c;
+}
+
+.bg-bgColour2 {
+    background-color: #f0f5bb;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.foot_copyright {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+footer h5 {
+
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-group-text {
+    background-color: #aab33c;
+}
+
+.card-img-overlay {
+    top: 16px;
+}
+
+.card-img-overlay div {
+    display: flex;
+    align-items: center;
+    top: 197
+}
+
+@media only screen and (max-width: 767px) {
+    #toMake {
+        font-size: 10px;
+        line-height: 2;
+    }
+
+    .layer2 .container {
+        max-width: 100%;
+    }
+
+    .layer3 {
+        margin-left: -0;
+    }
+
+    .row {
+
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #forFont h2,
+    #forFont h3 {
+        font-size: 12px;
+    }
+
+    #forFont h2 {
+        font-size: 23px;
+        font-family: MyFont;
+    }
+
+    .card-img-overlay {
+        top: 67px;
+    }
+
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: -0px;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+
+    .container {
+        padding: 0px 0px;
+    }
+
+    .col-6.col-md-4.col-lg-4.mt-3.ms-4.ms-lg-0 img {
+        display: none;
+    }
+
+    /* <LAST FOOTER> */
+    #footfoot {
+        text-align: center;
+        font-weight: 900;
+        font-size: 14px;
+    }
+
+    #bannerBtn {
+        width: 70%;
+        font-size: 10px;
+    }
+
+    #cartoon_div {
+        display: none;
+    }
+}
+
+
+/* <NAVBAR> */
+/* for the first layer */
+.heading {
+    background-image: url("../images/bannerbg.png");
+    background-size: cover;
+    background-position: center;
+    font-family: "Quicksand";
+    font-weight: bolder;
+}
+
+.heading .col>h3 {
+    color: beige;
+    font-weight: bolder;
+    max-width: 80%;
+}
+
+.heading .col>h2 {
+    font-family: firstfont;
+    font-size: 80px;
+    color: #aab33c;
+    max-width: 60%
+}
+
+.heading ul>button {
+    background-color: #aab33c;
+    border-style: none;
+    font-family: "Quicksand";
+    font-weight: bolder;
+}
+
+
+
+/* CARDS TOP */
+/* second lay out cards */
+.card-cont a {
+    color: #ffffff;
+    max-width: min-content;
+}
+
+#card-color {
+    background-color: #d9dda9;
+}
+
+.card-div {
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-div b {
+    font-size: 14px;
+    line-height: 28px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+.card-div img {
+    width: 97px;
+    height: 83px;
+    filter: drop-shadow(3.83px 3.214px 7.5px rgba(136, 133, 38, 0.3));
+}
+
+.card-img-top {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.3);
+}
+
+#forFont h2 {
+    font-family: MyFont;
+}
+
+/* <CARTOON WITH A LINK - LAYOUT 6> */
+#cartoonLink {
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 24px;
+}
+
+/* <trans> */
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    /* Styles go here */
+    /* <NAVBAR COLLAPSE> */
+    .navbar-collapse {
+        position: absolute;
+        z-index: 1;
+        margin-top: 334px;
+        margin-left: 306px;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        padding: 3px;
+        font-size: 12px;
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Styles go here */
+
+    .copyright p {
+        text-align: center;
+        background-color: black;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Styles go here */
+    .row {
+        --bs-gutter-x: -0.5rem;
+    }
+
+    #footer ul,
+    #footer p {
+        font-size: 7px;
+    }
+
+    .px-md-4 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+
+    }
+
+    #mobilee {
+        font-size: 12px;
+    }
+
+    #system_content {
+        font-size: 7px;
+    }
+
+    /* <NAVBAR COLLAPSE> */
+    .navbar-collapse {
+        position: absolute;
+        z-index: 1;
+        /* margin-top: 388px; */
+        margin-left: 624px;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        padding: 3px;
+        margin-top: 380px;
+    }
+
+    /* <CARTOON WITH A LINK - LAYOUT 6> */
+    #cartoonLink {
+        margin-top: 3.9%;
+        margin-left: 20%;
+        font-size: 20px;
+    }
+
+    #forFont h2 {
+        font-size: 28px;
+
+    }
+
+    #forFont h3 {
+        font-size: 11px;
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+        
+    }
+    #bannerBtn {
+        width: 30%;
+        font-size: 8px;
+        padding: 0;
+    }
+}
+
+#forFont {
+    align-content: center;
+}
+
+/* <BOTTOM CARDS> */
+
+.bottomCards .container .card-img-overlay {
+    margin-top: -10px;
+    padding: 0px;
+    opacity: 90%;
+}
+
+.bottomCards .container .card-body p {
+    font-size: 7px;
+}
+
+#toMake {
+    font-size: 14px;
+    line-height: 2;
+}
+
+#cartoon_div {
+
+    height: 90px;
+}
+
+#comp {
+    margin-left: 9px;
+}
+
+#cartoon_div {
+    display: none;
+}
+
+
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    /* Styles go here */
+    #mobilee {
+        font-size: 11px;
+    }
+
+    #mobilee_h4 {
+
+        margin-top: 0px;
+    }
+
+    #system_content {
+        font-size: 8px;
+        
+    }
+
+    /* <CARTOON WITH A LINK - LAYOUT 6> */
+    #cartoonLink {
+        margin-top: 4.9%;
+        margin-left: 28%;
+        font-size: 24px;
+
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    #system_content {
+        font-size: 7px;
+        
+    }
+}
+
+@media (max-width: 425px) {
+    .navbar-collapse {
+        position: absolute;
+        z-index: 1;
+        margin-top: 333px;
+        margin-left: 259px;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        padding: 3px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-collapse {
+        position: absolute;
+        z-index: 1;
+        margin-top: 342px;
+        margin-left: 199px;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        padding: 3px;
+        font-size: 12px;
+    }
+}

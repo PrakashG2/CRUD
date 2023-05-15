@@ -1,0 +1,37 @@
+{
+  "PetDetails": [
+    {
+      "PetType": "DOG",
+      "Breed": "LABOURADER",
+      "DOB": "2023-05-10",
+      "LifeSpan": "15",
+      "Cost": "15000",
+      "avatar": "https://images.pexels.com/photos/2951921/pexels-photo-2951921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "created": "May 4, 2023, 7:11:06 AM",
+      "modified": "May 5, 2023, 9:36:11 PM",
+      "id": 1
+    },
+    {
+      "PetType": "CAT",
+      "Breed": "MEXICAN",
+      "DOB": "2023-05-18",
+      "LifeSpan": "8",
+      "Cost": "25000",
+      "avatar": "https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "created": "May 4, 2023, 7:11:42 AM",
+      "modified": "May 5, 2023, 9:36:21 PM",
+      "id": 2
+    },
+    {
+      "PetType": "PARROT",
+      "Breed": "AGRICAN MAKAI",
+      "DOB": "2023-05-12",
+      "LifeSpan": "5",
+      "Cost": "35000",
+      "avatar": "https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "created": "May 4, 2023, 7:12:13 AM",
+      "modified": "May 6, 2023, 12:44:56 PM",
+      "id": 3
+    }
+  ]
+}

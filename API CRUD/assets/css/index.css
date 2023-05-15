@@ -1,0 +1,125 @@
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  /* LITTLE PAWS PET SHOP HEADING */
+  .little-paws {
+    font-size: 24px;
+    color: #f09e19;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 8px;
+    margin-left: 2%;
+    margin-top: 4px;
+  }
+
+
+
+
+  /* Styling for the hover effect */
+  .card {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .card:hover img {
+    transform: scale(1.2);
+  }
+
+  .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .card:hover .overlay {
+    opacity: 1;
+  }
+
+  .card .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* Styling for the content section */
+  .content {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  /* Styling for the footer section */
+  .footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .footer p {
+    margin-bottom: 10px;
+  }
+
+  .footer p:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(162, 162, 157);
+  }

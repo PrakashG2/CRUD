@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOOMIMM</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylees.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+        integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/4f6b630aab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/d509f79d02.js" crossorigin="anonymous"></script>
+    <!-- font -->
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+    <script>
+        var imageIndex = 0;
+        var images = ['./assets/images/phone2.png', './assets/images/phone3.png', './assets/images/mobile.png'];
+
+        function changeImage() {
+            var phoneImage = document.getElementById('phone-image');
+            phoneImage.src = images[imageIndex];
+            imageIndex++;
+            if (imageIndex >= images.length) {
+                imageIndex = 0;
+            }
+        }
+
+        setInterval(changeImage, 1500);
+    </script>
+
+</head>
+
+<body>
+
+    <div class="heading sm-3">
+        <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" width="60%"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav  ms-auto align-self-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">PLANS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">LEARN MORE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">WIDGET</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">FRANCAIS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">LOG IN</a>
+                        </li>
+                        <button>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" >GET THE DEAL</a>
+                            </li>
+                        </button>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- the first div -->
+        <div class="container-fluid my-5">
+            <div class="row">
+                <div class="col container-sm-2 mt-md-5 pt-md-5 px-5 mx-5" id="forFont">
+                    <h2 class="">The Best</h2>
+                    <h3 class="">REAL ESTATE ANALYSIS</h3>
+                    <h3 class="">SOFTWARE IN NORTH AMERICA</h3>
+                    <button class="" id="bannerBtn">START NOW</button>
+                </div>
+                <div class="col-md-6 align-self-end justify-content-start mt-5 pt-5">
+
+                    <img src="assets/images/screen.png" class="img-fluid px-n5" alt="banner">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer2">
+        <div class="container text-center">
+            <p id="toMake"> To make an informed decision when buying or purchasing an income property !</p>
+        </div>
+    </div>
+
+    <!-- second layout goes here -->
+    <section>
+        <div class="container-fluid card-cont">
+
+            <!-- Row of cards -->
+            <div class="row justify-content-center">
+                <!-- col-1 for card-1 -->
+                <a href=""
+                    class=" col-md-3 card text-center border-0 ms-1 ms-lg-0 me-1 mt-3 me-lg-3 me-md-1 mt-sm-3 mt-md-3 "
+                    id="card-color">
+                    <div class="card-body p-0">
+                        <div class="col-md-6  m-2">
+                            <div class="badge text-wrap pt-4 card-div" id="card-color">
+                                <img src="assets/images/cardImg1.png" class="img-fluid mt-1 card-img-top" width="60px"
+                                    height="56.7px" alt="cardImage1">
+                                <h6><b>User-friendly interface</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- col-2 for card-2 -->
+                <a href=""
+                    class="col-md-3 text-decoration-none  card text-center border-0 ms-1 me-1 mt-3 me-sm-2 me-lg-3 me-md-1 mt-sm-3 mt-md-3 "
+                    id="card-color">
+                    <div class="card-body p-0">
+                        <div class="col-md-3 m-2">
+                            <div class="text-wrap pt-4 card-div" id="card-color">
+                                <img src="assets/images/cardImg2.png" class="img-fluid card-img-top" width="60px"
+                                    height="60px" alt="cardImage2">
+                                <h6><b>Automatic analysis revision</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- col-3 for card-3 -->
+                <a href=""
+                    class="col-md-3 text-decoration-none  card text-center border-0 ms-1 me-1 me-lg-3 mt-3 me-md- mt-sm-3 mt-md-3"
+                    id="card-color">
+                    <div class="card-body p-0">
+                        <div class="col-md-3 m-2">
+                            <div class="text-wrap pt-4 ps-4 pe-4 card-div" id="card-color">
+                                <img src="assets/images/cardImg3.png" class="img-fluid card-img-top" width="60px"
+                                    height="60px" alt="cardImage3">
+                                <h6><b>Step-by-step data gathering</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- col-4 for card-4 -->
+                <a href=""
+                    class="col-md-3 card text-decoration-none  text-center border-0 ms-1 me-1 me-md-1 me-lg-3 me-sm-3 mt-3 mt-sm-3 mt-md-3"
+                    id="card-color">
+                    <div class="card-body p-0">
+                        <div class="col-md-3  m-2">
+                            <div class="text-wrap pt-4 card-div" id="card-color">
+                                <img src="assets/images/cardImg4.png" class="img-fluid card-img-top" width="60px"
+                                    height="60px" alt="...">
+                                <h6><b>Sell price evaluation feature</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+        <!-- row4 -->
+        <div class="container px-4">
+            <div class="row gx-5 justify-content-center justify-content-md-center justify-content-lg-center">
+                <div class="col-md-7 col-lg-6 pt-lg-5 pt-md-5">
+                    <div class="mt-3  mt-lg-0 text-center text-md-start text-lg-start">
+                        <!-- heading -->
+                        <h4 id="mobilee_h4"><b>Analyze any kind of Real</b></h4>
+                        <h4><b>Estate investment</b></h4>
+                        <!-- paragraph -->
+                        <div class="col-lg-11  d-lg-block d-none d-sm-block">
+                            <p id="mobilee">iAnalyzeREI can handle all sorts of income-producing Real Estate
+                                (Multifamily, commercial, plexes, etc.). Moreover, the reports produced by iAnalyzeREI
+                                are well-illustrated to accurately pinpoint the advantages of living in a plex rather
+                                than renting an apartment.
+
+
+                            </p>
+                            <p id="mobilee">Multi-family or commercial properties can also be analyzed, regardless of
+                                their size, thanks to special features that adapt to the building's type. For a
+                                residential lease, you should enter the number of rooms, the apartment’s surface, the
+                                rent, included services, etc. While gathering information to register a commercial
+                                lease, you will be able to enter even more specifications
+                        </div>
+                        <div class="row mt-lg-4 mt-4 justify-content-lg-start">
+                            <!-- large & medium device icon-1-->
+                            <a href="#" class="text-decoration-none text-black col-lg-5 col-md-6 col-12 ">
+                                <img src="assets/images/building.png" id="card-color"
+                                    class="img-fluid  d-lg-block d-none d-sm-block pt-lg-3 pt-2 pb-lg-3 pb-2 ps-lg-3 ps-2 pe-lg-3 pe-2 card border-0 mb-lg-2 mb-md-2"
+                                    width="33%" alt="appartment-icon">
+                                <p class="text-md-start d-lg-block d-none d-sm-block" id="small-icon"><b>UNLIMITED
+                                        APARTMENT
+                                        QUANTITIES</b></p>
+                            </a>
+                            <!-- large & medium device icon-2-->
+                            <a href="#" class="text-decoration-none text-black col-lg-5 col-md-6 ms-lg-5 col-12 ">
+                                <img src="assets/images/house.png" id="card-color"
+                                    class="img-fluid d-lg-block d-none d-sm-block p-lg-3 card border-0 mb-lg-2 mb-md-3"
+                                    width="33%" alt="house-icon">
+                                <p class="d-lg-block d-none d-sm-block" id="small-icon"><b>COMMERCIAL LEASES SPECIALLY
+                                        ADAPTED</b></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- mobile picture -->
+                <div class="col-6 col-md-5 col-lg-3 mt-3 mt-md-5 mt-lg-5" id="mob_corousel">
+                    <div class="border-0 ms-lg-auto"><img src="assets/images/mobile.png" class="img-fluid"
+                            id="phone-image" width="250px" alt="..."></div>
+                </div>
+                <!-- clickable icons for mobile device-->
+                <div class="mt-3 text-center text-md-start text-lg-start">
+                    <div class="row mt-4 justify-content-lg-start">
+                        <!-- card-icon-1 -->
+                        <a href="#" class="text-decoration-none  text-black">
+                            <div class="col-12 rounded-3 rounded mx-auto pt-2 mb-3 pb-1 border-5 d-block d-sm-none"
+                                id="card-color">
+                                <img src="assets/images/building.png" id="card-color"
+                                    class="img-fluid rounded mx-auto d-block d-sm-none pt-2 pb-2 ps-2 pe-2 card border-0 mb-2"
+                                    width="21%" alt="appartment-icon">
+                                <p class="text-md-start" id="small-icon"><b>UNLIMITED APARTMENT
+                                        QUANTITIES</b></p>
+                            </div>
+                        </a>
+                        <!-- card-icon-2 -->
+                        <a href="#" class="text-decoration-none text-black ">
+                            <div class="col-12 rounded mx-auto rounded-3 pt-2 mb-3 pb-1 border-5 d-block d-sm-none"
+                                id="card-color">
+                                <img src="assets/images/house.png" id="card-color"
+                                    class="img-fluid rounded mx-auto d-block d-sm-none mt-1 p-lg-3 pb-1 card border-0 mb-lg-2 mb-2"
+                                    width="16%" alt="house-icon">
+                                <p class="d-block d-sm-none " id="small-icon"><b>COMMERCIAL LEASES SPECIALLY ADAPTED</b>
+                                </p>
+                            </div>
+                        </a>
+                        <!--  -->
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+        <!-- dummy -->
+        <div class="container-fluid pt-lg-4 pb-lg-5" id="system-bg">
+            <div class="container px-4">
+                <div class="row gx-5 justify-content-center justify-content-md-center justify-content-lg-center">
+                    <!-- syatem picture -->
+                    <div class="col-6 col-md-4 col-lg-4 mt-3 ms-4 ms-lg-0 ">
+                        <div class="border-0"><img src="assets/images/computer.png.png" width="1000px" class="img-fluid"
+                                alt="..."></div>
+                    </div>
+                    <div class="col-md-7 col-lg-5">
+                        <div class="mt-3 text-center text-md-start text-lg-start" id="comp">
+                            <!-- heading -->
+                            <div class="me-5">
+                                <div class="row gx-5">
+                                    <div class="col-lg-12 col-12">
+                                        <div
+                                            class="text-md-start fw-bolder ms-4 ms-md-0 ms-lg-0 text-lg-start border-0">
+                                            <h3><b>Zoom-imm is an essential
+                                                    tool for all Real Estate
+                                                    professionals!</b></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- paragraph -->
+                            <div class="col-lg-11  d-lg-block mt-lg-3 ContentRightToSystem">
+                                <p id="system_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                                    nisi
+                                    nulla at? Inventore provident alias quo perferendis ad fugiat tempore optio,
+                                    repudiandae
+                                    voluptatum similique illo deleniti. Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempore, harum
+                                    distinctio obcaecati aut labore reprehenderit neque maxime. Ipsum, neque!
+                                    Saepe, aspernatur! Quae ex wefc wefrf Lorem ipsum dolor sit amet consectetur adipis.
+                                </p>
+                                <p id="system_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                                    nisi harum
+                                    laudantium
+                                    nihil
+                                    a
+                                    nulla at? Inventore</p>
+                                <p id="system_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                    molestiae eum
+                                    consequuntur
+                                    repudiandae sunt non saepe, excepturi, possimus quasi at cupiditate dolorum alias.
+                                    laboriosam tempora, accusantium eum?Lorem ipsum doloit. Nisi adipisci cumque
+                                    expedita
+                                    iste, neque hic mincidunt. Nulla, dolores.</p>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <button class="border-0 me-lg-2 me-md-2 p-lg-1 ps-lg-3 pe-lg-3 " id="button-mid"
+                                        type="button">VIEW
+                                        SAMPLE REPORT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- table 2-->
+        <div class="container pt-5">
+            <table class="table table-striped rounded-top  table-hover ">
+                <thead class="thead-dark">
+                    <tr id="tablehead">
+
+                        <th scope="col" class="h1 fw-bold w-50">Plans</th>
+                        <th scope="col">
+                            <div class="h1 fw-bold small">FULL</div>
+                            <p class="h6 small">Have complete control over all the analysis parameters.</p>
+                        </th>
+                        <th scope="col">
+                            <div class="h1 fw-bold small">LIGHT</div>
+                            <p class="h6 small">The best way to analyze properties & print pro reports.</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="tblep border-end" scope="row">
+                            <p>
+                                Général
+                                Market your properties on the web !
+                                Your properties will be accessible from anywhere to anyone! Add links to your website,
+                                newsletter,
+                                e-mails,
+                                etc.
+                                Click here to view a sample
+                            </p>
+                        </th>
+                        <td class="border-end"><img class="col-sm-2 ms-5 mt-4" src="assets/images/ok.png" alt="Tick">
+                        </td>
+                        <td class="border-end"><img class="col-sm-2 ms-5 mt-4" src="assets/images/ok.png" alt="Tick">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th class="tblep border-end" scope="row">
+                            <p>Data
+                                Flexible mortgage (frequency, amortization, interest rate)</p>
+                        </th>
+                        <td class="border-end"><img class="col-sm-2 ms-5 mt-4" src="assets/images/ok.png" alt="Tick">
+                        </td>
+                        <td class="border-end"><img class="col-sm-2 ms-5 mt-4" src="assets/images/ok.png" alt="Tick">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="tblep border-end" scope="row">
+                            <p>Unlimited number of mortgages to finance a property (balance of sale, 2nd
+                                mortgage, collateral)
+                                all this, under different conditions (interest rate, payment frequency, etc.)</p>
+                        </th>
+                        <td class="border-end"><img class="col-sm-2 ms-5" src="assets/images/ok.png" alt="Tick"></td>
+                        <td class="border-end"></td>
+                    </tr>
+                    <tr>
+                        <th class="tblep border-end" scope="row">
+                            <p>Unlimited number of income sources </p>
+                            </td>
+                        <td class="border-end"><img class="col-sm-2 ms-5" src="assets/images/ok.png" alt="Tick"></td>
+                        <td class="border-end"></td>
+                    </tr>
+                    <tr>
+                        <th class="tblep border-end" scope="row">
+                            <p>Modify the inflation of income and expenses independently for each year in the
+                                financial forecast.
+                                Detailed leases (multifamily and commercial). Unlimited number of leases. (Start date,
+                                length, tenants,
+                                included services, etc.)
+                                Possibility to increase the rent for every lease.</p>
+
+                        </th>
+                        <td class="tblep border-end"><img class="col-sm-2 ms-5" src="assets/images/ok.png" alt="Tick">
+                        </td>
+                        <td class="tblep border-end"><img class="col-sm-2 ms-5" src="assets/images/ok.png" alt="Tick">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="tblep border-end" scope="row">
+                            <p>
+                                Support and subscription
+                                FREE technical support by E-mail and toll-free number.
+                                No contract! No activation fees! No penalties! You can stop using iAnalyzeREI whenever
+                                you decide
+                            </p>
+                            </td>
+                        <td class="tblep border-end"><img class="col-sm-2 ms-5" src="assets/images/ok.png" alt="Tick">
+                        </td>
+                        <td class="tblep border-end"><img class="col-sm-2 ms-5" src="assets/images/ok.png" alt="Tick">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><label id="pp">Plan Prices</label>
+                            <p id="tableend" class="float-end">Monthly
+                                Annual contract</p>
+                        </th>
+                        <td id="tableend" class="float-left">$42.80/month
+                            $37.32/month</td>
+                        <td id="tableend">$16.05/month</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    <!-- want to learn more-->
+
+    <div class="container-fluid " id="cartoon_div">
+        <div class="container-sm-6 p-5 ">
+            <a href="#">
+                <p>
+                    Want to learn more about the software ? <span class="learn_link">Click here !</span>
+                </p>
+            </a>
+        </div>
+    </div>
+
+
+   
+    <!--cards-->
+    <!-- cards-2-->
+    <div class="container mt-5">
+        <div class="row justify-content-center ms-sm-4">
+            <!--card1-->
+            <div class="ms-2 ms-md-0 ms-lg-0 col-10 col-sm-10 col-md-4 col-lg-3">
+                <img class="img-fluid" src="assets/images/bottomCardImg1.png" id="botcard123">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10">
+                    <div class="ms-4 ms-md-3 ms-lg-4" id="innercard">
+                        <img class="img-fluid p-2 p-md-2 p-lg-2" src="assets/images/bottom_card_icon1.png"
+                            id="green-bg-clr">
+                        <div class="card-text ms-2 ms-md-1 ms-lg-1 mt-2 mt-md-0 mt-lg-2 ">
+                            <p id="font-size">To make an informed decision when buying or purchasing an income
+                                property
+                                !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--card2-->
+            <div class="ms-2 mt-4 mt-md-0 mt-lg-0 ms-lg-0 ms-md-0 col-10  col-sm-10 col-md-4 col-lg-3">
+                <img class="img-fluid" src="assets/images/bottomCardImg2.png" id="botcard123">
+                <div class="col-10 col-md-10 col-lg-10">
+                    <div class="ms-4 ms-md-4 ms-lg-4" id="innercard">
+                        <img class="img-fluid p-2 p-md-2 p-lg-2" src="assets/images/bottom_card_icon2.png"
+                            id="green-bg-clr">
+                        <div class="card-text ms-2 mt-3 ms-md-1 mt-md-2 ms-lg-1 mt-lg-2">
+                            <p>FREE, fast and courteous customer support !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--card3-->
+            <div class="ms-2 mt-4 mt-lg-0 ms-lg-0 ms-md-0 mt-md-0 col-10 col-sm-10 col-md-4 col-lg-3">
+                <img class="img-resposive img-fluid" src="assets/images/bottomCardImg3.png" id="botcard123">
+                <div class="ms-4 ms-lg-0 ms-md-0 mt-lg-0 mt-md-0 col-10 col-md-11 col-lg-10">
+                    <div class="ms-md-3 ms-lg-4" id="innercard">
+                        <img class="img-resposive img-fluid pt-lg-2 pt-md-2 pb-3 pb-lg-3 pb-md-3 ps-2 ps-lg-2 ps-md-2 pe-2 pe-lg-2 pe-md-2"
+                            src="assets/images/bottom_card_icon3.png" id="green-bg-clr">
+                        <div class="card-text ms-2 mt-3 ms-lg-1 ms-md-1 mt-lg-1 mt-md-3" id="innercardtext">
+                            <p>Zoom-imm is easy to use and produces professional reports</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="justify-content-center start mb-5 mt-5">
+        <h2 class="mt-5">Get the real deal</h2>
+        <button class="me-auto">START NOW</button>
+    </div>
+
+
+
+    <!--FOOTER-->
+    <footer
+        class="bg-image bg-size-cover bg-position-center text-dark bg-cover d-flex justify-content-center align-items-center"
+        id="footer">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <h5 class="mt-md-4">ABOUT US</h5>
+                    <p class="small">iAnalyzeREI instantly analyzes<br>commercial and multifamily
+                        income<br>properties.<br>
+                        This web-based software is an essential<br>tool for every real estate professional.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h5 class="mt-md-4">GET IN TOUCH</h5>
+
+                    <ul class="list-unstyled small lineH">
+                        <li><i class="fas fa-map-marker-alt" style="color: #aab33c;"></i> 85, rue Albert # 202
+                            Sherbrooke Sherbrooke (QC)
+                            Canada J1H 1N1</li>
+                        <li><i class="fas fa-phone" style="color: #aab33c;"></i> + 1 222-222-222</li>
+                        <li><i class="fas fa-envelope" style="color: #aab33c;"></i>
+                            support@magexTechnologies.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="mt-md-4">QUICK LINKS</h5>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <ul class="list-unstyled small lineH ">
+                                <li><a href="#" class="text-decoration-none text-dark">HOME</a></li>
+                                <li><a href="#" class="text-decoration-none text-dark">LEARN MORE</a></li>
+                                <li><a href="#" class="text-decoration-none text-dark">PLANS</a></li>
+                                <li><a href="#" class="text-decoration-none text-dark">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <ul class="list-unstyled small lineH">
+                                <li><a href="#" class="text-decoration-none text-dark">SECURITY AND
+                                        CONFIDENTIALITY</a></li>
+                                <li><a href="#" class="text-decoration-none text-dark">TERMS AND CONDITIONS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 col-sm-6 px-md-4 h-50 footer_style">
+
+                    <form method="post" class="mt-md-4 was-validated">
+                        <div class="form-group mb-1">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user"
+                                        style="color: aliceblue;"></i></span>
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group  mb-1">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-envelope"
+                                        style="color: aliceblue;"></i></span>
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group  mb-1">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-phone"
+                                        style="color: aliceblue;"></i></span>
+                                <input type="number" class="form-control" placeholder="Phone" required>
+                            </div>
+                        </div>
+                        <div class="form-group  mb-1">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-comment"
+                                        style="color: aliceblue;"></i></span>
+                                <input type="text" class="form-control" placeholder="comments" required>
+                            </div>
+                        </div>
+                        <button type="submit" id="form_submit_btn"> SUBMIT</button>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <footer class="bg-bgColour">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 mt-md-3 foot_copyright text-light quicksand copyright">
+                    <p class="fw-500" id="footfoot">&copy; COPYRIGHT 2021 - MAGEX TECHNOLOGIES INC. ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="col-md-6 mt-md-3 text-end px-md-4 foot_copyright text-light fw-500 quicksand">
+                    <p id="footfoot"><span>T & CS</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

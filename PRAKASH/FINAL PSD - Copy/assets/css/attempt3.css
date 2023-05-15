@@ -1,0 +1,662 @@
+/* css */
+
+#menu {
+    color: #ffffff;
+    font-size: small;
+}
+
+#menu:hover {
+    color: #a9b33b;
+}
+
+#button {
+    color: #ffffff;
+    background-color: #a9b33b;
+    font-size: small;
+}
+
+#button:hover {
+    background-color: #5f6517;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+    font-size: small;
+}
+
+ul li {
+    font-family: "Quicksand";
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: 'MyFont';
+    src: url(/assets/font/00819\ Regular.ttf);
+}
+
+header {
+    background-image: url(/assets/images/banner.png);
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+#card-color {
+    background-color: #d9dda9;
+
+}
+
+/* quotes css and media query */
+
+
+.quotes .quote-text {
+    font-size: 50px;
+    line-height: 25px;
+    color: #aab33c;
+    font-family: MyFont;
+    margin-top: 25%;
+    margin-left: 50%;
+}
+
+.quotes .quote-subtext {
+    display: block;
+    font-family: "Quicksand";
+    font-size: 20px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 50%;
+
+}
+
+/* page-1 button */
+.quotes button {
+    display: block;
+    height: 40px;
+    padding: 10px 12px;
+    background-color: #aab33c;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 50%;
+}
+
+.quotes button:hover {
+    background-color: #899d2b;
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 768px) {
+    header {
+        height: 350px;
+    }
+
+    .quotes .quote-text {
+        font-size: 200%;
+        margin-top: 18%;
+    }
+
+    .quotes .quote-subtext {
+        font-size: 77%;
+        line-height: 0%;
+    }
+
+    .quotes button {
+        height: 13%;
+        font-size: 50%;
+        line-height: 0%;
+    }
+
+
+}
+
+/* @media (min-width: 375px) {
+    header {
+        height: 200px;
+    }
+
+    .quotes .quote-text{
+        margin-top: 8%;
+        font-size: 120%;
+    }
+
+    .quotes .quote-subtext{
+        font-size: 35%;
+        line-height: 0%;
+    }
+} */
+
+.card-cont a {
+    color: #ffffff;
+    max-width: min-content;
+}
+
+.card-div {
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-div b {
+    font-size: 14px;
+    line-height: 28px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+.card-div img {
+    width: 97px;
+    height: 83px;
+    filter: drop-shadow(3.83px 3.214px 7.5px rgba(136, 133, 38, 0.3));
+}
+
+.card-img-top {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.3);
+}
+
+@media(max-width: 768px) {
+    .card-div {
+        width: 10rem;
+        height: 9rem;
+    }
+
+    .card-div b {
+        margin-bottom: 10%;
+        font-size: 60%;
+        line-height: 0%;
+    }
+
+    .card-img-top {
+        height: 50%;
+        width: 50%;
+    }
+
+}
+
+.passage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.passage span {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .passage span {
+        font-size: 80%;
+        line-height: 120%;
+    }
+}
+
+
+.phone-para {
+    display: block;
+    margin-left: 220px;
+    font-size: 19px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.phone-text-col {
+    margin-top: 80px;
+}
+
+.phone-text-col p .phone-span {
+    display: block;
+    font-size: 10px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 600;
+    font-family: "Quicksand";
+    margin-left: 220px;
+}
+
+
+.rec-1 {
+    margin-left: 220px;
+}
+
+.rec-2 {
+    margin-left: 120px;
+}
+
+.rec-text-col p .rec-text {
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    display: block;
+    margin-left: 220px;
+}
+
+.rec-text-col p .rec-text-1 {
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    display: block;
+    margin-left: 120px;
+}
+
+
+
+@media (max-width: 768px) {
+    .phone-para {
+        margin-left: 30%;
+    }
+
+    .phone-text-col p .phone-span {
+        margin-left: 20%;
+    }
+
+    .rec-1 {
+        margin-left: 40%;
+    }
+
+    .rec-2 {
+        margin-left: 30%;
+    }
+
+    .rec-text-col p .rec-text {
+        margin-left: 40%;
+    }
+
+    .rec-text-col p .rec-text-1 {
+        margin-left: 30%;
+    }
+}
+
+
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+    .comp .row {
+        flex-direction: column;
+    }
+
+    .comp {
+
+        width: 100%;
+        height: 763px;
+        background-color: #a9b33c80;
+    }
+
+    .comp #compImg {
+        /* filter: blur(1px); */
+
+        margin-top: 20%;
+        max-width: 240%;
+
+    }
+
+    .comp #expImg {
+
+        /* background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px); */
+        position: absolute;
+        margin-left: 20.5%;
+        /* margin-top: 47.5%; */
+        max-height: 18%;
+        width: 62%;
+    }
+
+
+    .comp p {
+
+        align-items: center;
+        font-size: 10px;
+        font-weight: 600;
+
+    }
+
+    #comp_p1 {
+        font-size: 22px;
+        width: 175%;
+
+        color: #404142;
+        font-weight: 700;
+        font-family: "Quicksand";
+    }
+
+    #comp_p2 {
+        width: 170%;
+        height: 80%;
+        font-size: 8px;
+        color: #404142;
+        font-weight: 500;
+        font-family: "Quicksand";
+    }
+
+    #comp_p3 {
+        width: 150%;
+        font-size: 8px;
+        color: #404142;
+        font-weight: 800;
+        font-family: "Quicksand";
+    }
+
+    .viewBtn {
+        border: none;
+        border-radius: 4px;
+        padding: 8px;
+        font-size: 11px;
+        background-color: rgba(170, 179, 59, 0.3);
+        ;
+    }
+
+
+
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .comp {
+
+        width: 100%;
+        height: 473px;
+        background-color: #a9b33c80;
+    }
+
+    .comp img {
+        margin-top: 4%;
+        max-height: 60%;
+    }
+
+    .comp p {
+
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+        padding: 10px;
+        width: 80%;
+    }
+
+
+}
+
+/* Laptops and desktops */
+@media only screen and (min-width: 1024px) {
+    .comp {
+        max-width: 100%;
+        height: 560px;
+        background-color: #a9b33c80;
+    }
+
+    .comp #compImg {
+
+        margin-left: 30%;
+        margin-top: 4%;
+        height: 78%;
+        width: 58%;
+    }
+
+    .comp #expImg {
+        position: absolute;
+        margin-left: 31.5%;
+        margin-top: 29.5%;
+        max-height: 18%;
+        width: 12%;
+    }
+
+    .comp p {
+        margin-left: 50px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+        padding: 10px;
+        width: 80%;
+
+    }
+
+    #comp_p1 {
+        font-size: 240%;
+        line-height: 46px;
+        color: #404142;
+        font-weight: 700;
+        font-family: "Quicksand";
+    }
+
+    #comp_p2 {
+        width: 646px;
+        height: 202px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #404142;
+        font-weight: 500;
+        font-family: "Quicksand";
+
+    }
+
+    #comp_p3 {
+        margin-left: 8%;
+        font-size: 14px;
+        line-height: 20px;
+        color: #404142;
+        font-weight: 500;
+        font-family: "Quicksand";
+    }
+
+    .viewBtn {
+        border: none;
+        padding: 8px;
+        font-size: 11px;
+        background-color: rgba(169, 179, 59, 0.993);
+        color: #ffffff;
+        margin-left: 78%;
+    }
+
+
+    .table {
+        margin: 0 auto;
+        max-width: 70%;
+        margin-top: 5%;
+
+    }
+
+
+    /* CARTOON */
+
+    .cartoon {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      
+      .cartoon a {
+        position: absolute;
+        bottom: 45px;
+        font-size: 24px;
+        color: #404142;
+        font-weight: 500;
+        font-family: "Quicksand";
+        font-weight: 700;
+        
+        
+      }
+
+      .cartoon a span{
+        
+        font-size: 34px;
+        
+        
+      }
+
+      /* B O T T O M   C A R D */
+      .card-container {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin-left: 14%;
+      }
+      
+      .card {
+        flex: 1;
+        margin: 10px;
+      }
+
+      #bottom{
+        max-width: 84%;
+        background-color: #5f6517;
+        border-radius: 0;
+        height: 20%;
+        margin-top: 162px;  
+        margin-left: 7.5%;
+        color: #000000;
+        
+      }
+
+      #bottom_card_icon1{
+        scale: 47%;
+        margin-top: -54px;
+        margin-left: 0;
+      }
+      
+      
+      
+      
+      
+
+    }
+
+
+
+
+
+
+.table .tbl_head {
+
+    width: 50%;
+    font-size: 45px;
+    line-height: 46px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    background-color: rgb(169, 179, 59);
+    border-top-left-radius: 30px;
+}
+
+.table .tbl_head2 {
+
+
+    width: 15%;
+
+    font-size: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    background-color: rgb(169, 179, 59);
+}
+
+.table .tbl_head3 {
+
+
+    width: 15%;
+    font-size: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    background-color: rgb(169, 179, 59);
+    border-top-right-radius: 30px;
+}
+
+.table_tableHead pre {
+
+
+    font-size: 9px;
+    line-height: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+.table_tableHead_total {
+    border-bottom-left-radius: 30px;
+}
+
+.table_total_td {
+    border-bottom-right-radius: 30px;
+
+}
+
+
+.table_tableHead_total pre {
+
+    float: right;
+    font-size: 10px;
+
+    color: #000000;
+    font-weight: 900;
+    font-family: "Quicksand";
+}
+
+/* .tab th,.tab td{
+
+    background-color: #000000;
+    
+} */
+
+td {
+
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 10px #888888;
+    vertical-align: middle;
+
+}
+
+.th pre {}
+
+.table-striped>tbody>tr:nth-of-type(even)>* {
+    --bs-table-accent-bg: rgba(170, 179, 59, 0.3);
+    color: var(--bs-table-striped-color);
+}
+
+.table>:not(caption)>*>* {
+    vertical-align: middle;
+
+
+
+    height: 75px;
+}
